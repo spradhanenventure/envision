@@ -1,154 +1,92 @@
-`BarChart` displays data as an interactive bar chart.  It supports iOS
-and Android, and has customizable labels, legends, and other appearance
-properties.
-
-## Examples
-
-### Adding a `BarChart` to your iOS app:
+To show a plot, you must define a `PlotModel` that includes all the data that should be displayed.
+The following example shows how to add axes and a simple line series.
+See the online ['Example browser'](http://resources.oxyplot.org/examplebrowser/) on [oxyplot.org](http://oxyplot.org/) for more example models.
+Note that the code defining the plots is portable, the example library is a portable class library (PCL).
 
 ```csharp
-using BarChart;
+using OxyPlot;
+using OxyPlot.Axes;
+using OxyPlot.Series;
+
+...
+
+private PlotModel CreatePlotModel() {
+
+	var plotModel = new PlotModel { Title = "OxyPlot Demo" };
+
+	plotModel.Axes.Add (new LinearAxis { Position = AxisPosition.Bottom });
+	plotModel.Axes.Add (new LinearAxis { Position = AxisPosition.Left, Maximum = 10, Minimum = 0 });
+
+	var series1 = new LineSeries {
+		MarkerType = MarkerType.Circle,
+		MarkerSize = 4,
+		MarkerStroke = OxyColors.White
+	};
+
+	series1.Points.Add (new DataPoint (0.0, 6.0));
+	series1.Points.Add (new DataPoint (1.4, 2.1));
+	series1.Points.Add (new DataPoint (2.0, 4.2));
+	series1.Points.Add (new DataPoint (3.3, 2.3));
+	series1.Points.Add (new DataPoint (4.7, 7.4));
+	series1.Points.Add (new DataPoint (6.0, 6.2));
+	series1.Points.Add (new DataPoint (8.9, 8.9));
+
+	plotModel.Series.Add (series1);
+
+	return plotModel;
+}
+```
+
+## iOS
+
+To show the plot in your iOS app, add a `PlotView` to the view controller class:
+
+```csharp
+using OxyPlot.XamarinIOS;
 ...
 
 public override void ViewDidLoad ()
 {
-  base.ViewDidLoad ();  
+	...
+	var plotView = new PlotView {
+		Model = CreatePlotModel(),
+		Frame = this.View.Frame 
+	};
+	this.View.AddSubview (plotView);
+}    
 
-  var data = new [] { 1f, 2f, 4f, 8f, 16f, 32f };
-  var chart = new BarChartView {
-    Frame = View.Frame,
-    ItemsSource = Array.ConvertAll (data, v => new BarModel { Value = v })
-  };
-
-  View.AddSubview (chart);
+// Invalidate the plot view when the orientation of the device changes
+public override void DidRotate (UIInterfaceOrientation fromInterfaceOrientation)
+{
+	base.DidRotate (fromInterfaceOrientation);
+	this.plotView.InvalidatePlot (false);
 }
 ```
 
-### Adding a `BarChart` to your Android app:
+## Android
+
+To show the plot in your Android app, add a `PlotView` to the activity class:
 
 ```csharp
-using BarChart;
+using OxyPlot.XamarinAndroid;
 ...
 
 protected override void OnCreate (Bundle bundle)
 {
-  base.OnCreate (bundle);
-  
-  var data = new [] { 1f, 2f, 4f, 8f, 16f, 32f };
-  var chart = new BarChartView (this) {
-    ItemsSource = Array.ConvertAll (data, v => new BarModel { Value = v })
-  };
+	base.OnCreate (bundle);
 
-  AddContentView (chart, new ViewGroup.LayoutParams (
-    ViewGroup.LayoutParams.FillParent, ViewGroup.LayoutParams.FillParent));
+	var plotView = new PlotView (this);
+	plotView.Model = CreatePlotModel();
+    
+	this.AddContentView (plotView,
+		new ViewGroup.LayoutParams (ViewGroup.LayoutParams.MatchParent, ViewGroup.LayoutParams.MatchParent));
 }
 ```
 
-### Events and Customization
+## Other Resources
 
-By subscribing to `BarClick`, you can be notified when the user
-touches a bar:
-
-```csharp
-chart.BarClick += (sender, args) => {
-  BarModel bar = args.Bar;
-  Console.WriteLine ("Pressed {0}", bar);
-};
-```  
-
-Chart values are limited by the minimum and maximum values in the
-`ItemsSource`. Alternatively, you can set minimum and maximum values
-manually:
-
-```csharp
-chart.MinimumValue = 5;
-chart.MaximumValue = 8;
-```  
-
-To return to default behavior (automatic fitting):
-
-```csharp
-chart.MinimumValue = null;
-chart.MaximumValue = null;
-```    
-
-You can mix automatic and manual fitting:
-
-```csharp
-chart.MinimumValue = -2;
-chart.MaximumValue = null;
-```    
-
-Y-axis tick marks are placed automatically at 1/4 intervals in the range
-of `Value` in your `ItemsSource`. To set place tick marks manually:
-
-```csharp
-chart.AutoLevelsEnabled = false;
-chart.AddLevelIndicator (0, title: "zero");
-chart.AddLevelIndicator (5);
-```
-
-Resetting `AutoLevelsEnabled` to true removes all custom tick marks and
-reverts to the default behavior.
-
-Other customizable appearance properties:
-
-```csharp
-chart.GridHidden = true;
-chart.LegendHidden = true;
-
-chart.BarWidth = 40;
-chart.BarOffset = 2;
-```  
-
-Changing bar and caption colors:
-
-```csharp
-//iOS
-chart.BarColor = UIColor.Green;
-chart.BarCaptionInnerColor = UIColor.White;
-chart.BarCaptionInnerShadowColor = UIColor.Black;
-chart.BarCaptionOuterColor = UIColor.Black;
-chart.BarCaptionOuterShadowColor = UIColor.White;
-
-//Android
-chart.BarColor = Android.Graphics.Color.Green;
-chart.BarCaptionInnerColor = Android.Graphics.Color.White;
-chart.BarCaptionOuterColor = Android.Graphics.Color.Black;
-```  
-
-You may also set `BarModel` appearance properties on an individual
-basis:
-
-```csharp
-var bar = new BarModel {
-  Value = 100500,
-  Color = UIColor.Green,
-  Legend = "Unit Sales",
-  ValueCaptionHidden = false,
-  ValueCaption = "100k"
-};
-```
-
-### Adding BarChart to AXML Layouts
-
-Or using axml layout:
-
-```xml
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" ... >
-
-  <barchart.BarChartView
-    android:id="@+id/barChart"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
-    min_value="5"
-    max_value="8"
-    bar_width="40"
-    bar_offset="2"
-    bar_color="#FF0000"
-    bar_caption_fontSize="30"
-    bar_caption_innerColor="#000000"
-    bar_caption_outerColor="#FFFFFF" />
-
-</LinearLayout>
-```
+* [oxyplot.org](http://oxyplot.org/)
+* [Documentation](http://oxyplot.org/documentation/)
+* [Source](http://github.com/oxyplot/) `git clone https://github.com/oxyplot/oxyplot.git`
+* [Support forum](http://discussion.oxyplot.org/)
+* [Issue tracker](https://github.com/oxyplot/oxyplot/issues)

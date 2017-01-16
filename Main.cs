@@ -1,25 +1,10 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-
-#if __UNIFIED__
-using UIKit;
 using Foundation;
-using CoreGraphics;
-using CoreAnimation;
-#else
-using System.Drawing;
-using MonoTouch.UIKit;
-using MonoTouch.Foundation;
-using MonoTouch.CoreAnimation;
-using MonoTouch.CoreGraphics;
-using CGRect = global::System.Drawing.RectangleF;
-using CGSize = global::System.Drawing.SizeF;
-using CGPoint = global::System.Drawing.PointF;
-using nfloat = global::System.Single;
-#endif
+using UIKit;
 
-namespace iOS.Sample
+namespace OxyPlotSample.iOS
 {
 	public class Application
 	{

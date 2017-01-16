@@ -1,45 +1,56 @@
-`BarChart` displays data as an interactive bar chart.  It supports iOS
-and Android, and has customizable labels, legends, and other appearance
-properties.
+OxyPlot is an open source plotting library that is licensed under the MIT license, 
+which permits use in proprietary software.
 
-### Adding a `BarChart` to your iOS app:
+The main goals for the library are:
 
+- it should be easy to use
+- it should be open for extensions
+- it should have high performance
+
+See [oxyplot.org](http://oxyplot.org/) for examples and documentation (under construction).
+
+If you have questions, use the [discussion forum](http://discussion.oxyplot.org/).
+
+To report bugs or request features, use the [issue tracker](https://github.com/oxyplot/oxyplot/issues) for the [GitHub repository](https://github.com/oxyplot/oxyplot).
+
+# Main features
+
+- Linear axes
+- Logarithmic axes
+- Line series
+- Scatter series
+- Area series
+- Bar and column series
+- Heat maps
+- Annotations
+- Export plots to pdf, svg and png
+
+# Code example
+
+To define a plot, start with creating a `PlotModel`:
 ```csharp
-using BarChart;
-...
+var plotModel = new PlotModel { Title = "OxyPlot Demo" };
 
-public override void ViewDidLoad ()
-{
-  base.ViewDidLoad ();  
+plotModel.Axes.Add (new LinearAxis { Position = AxisPosition.Bottom });
+plotModel.Axes.Add (new LinearAxis { Position = AxisPosition.Left, Maximum = 10, Minimum = 0 });
 
-  var data = new [] { 1f, 2f, 4f, 8f, 16f, 32f };
-  var chart = new BarChartView {
-    Frame = View.Frame,
-    ItemsSource = Array.ConvertAll (data, v => new BarModel { Value = v })
-  };
+var series1 = new LineSeries {
+	MarkerType = OxyPlot.MarkerType.Circle,
+	MarkerSize = 4,
+	MarkerStroke = OxyPlot.OxyColors.White
+};
 
-  View.AddSubview (chart);
-}
+series1.Points.Add (new DataPoint (0.0, 6.0));
+series1.Points.Add (new DataPoint (1.4, 2.1));
+series1.Points.Add (new DataPoint (2.0, 4.2));
+series1.Points.Add (new DataPoint (3.3, 2.3));
+series1.Points.Add (new DataPoint (4.7, 7.4));
+series1.Points.Add (new DataPoint (6.0, 6.2));
+series1.Points.Add (new DataPoint (8.9, 8.9));
+
+plotModel.Series.Add (series1);
 ```
 
-### Adding a `BarChart` to your Android app:
-
-```csharp
-using BarChart;
-...
-
-protected override void OnCreate (Bundle bundle)
-{
-  base.OnCreate (bundle);
-  
-  var data = new [] { 1f, 2f, 4f, 8f, 16f, 32f };
-  var chart = new BarChartView (this) {
-    ItemsSource = Array.ConvertAll (data, v => new BarModel { Value = v })
-  };
-
-  AddContentView (chart, new ViewGroup.LayoutParams (
-    ViewGroup.LayoutParams.FillParent, ViewGroup.LayoutParams.FillParent));
-}
-```
-
-*Screenshot assemble with [PlaceIt](http://placeit.breezi.com/).*
+Then add a `PlotView` in your iOS or Android app, and assign the `Model` property of the view 
+to the `PlotModel` you just created. See the getting started section for more information.
+The Xamarin Component includes sample solutions for both Android and iOS. 
