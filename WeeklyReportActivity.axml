@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:padding="20px">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#000"
+        android:orientation="horizontal"
+        android:padding="30px">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Weekly Report"
+            android:textColor="#fff"
+            android:textSize="30px" />
+        <Button
+            android:layout_width="0dp"
+            android:id="@+id/b_menu"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:layout_height="wrap_content"
+            android:text="Menu"
+            android:textColor="#fff"
+            android:background="#000"
+            android:textSize="30px" />
+    </LinearLayout>
+      
+    <FrameLayout
+      android:layout_width="match_parent"
+      android:layout_height="0dp"
+      android:id="@+id/fl_chart"
+      android:layout_weight="10">
+      
+    </FrameLayout>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SHARE"
+        android:background="@drawable/button_passive_style"
+        android:id="@+id/b_share"
+        android:layout_marginTop="20px"
+        android:padding="20px" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="GO TO EARNINGS"
+        android:background="@drawable/button_style"
+        android:id="@+id/b_weekly"
+        android:layout_marginTop="20px"
+        android:padding="20px" />
+</LinearLayout>

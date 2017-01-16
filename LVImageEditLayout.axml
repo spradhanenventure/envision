@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_weight="2"
+        android:layout_height="wrap_content"
+        android:padding="30px"
+        android:layout_marginRight="20px"
+        android:id="@+id/et1"
+        android:layout_marginTop="20px" />
+    <EditText
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edit_style"
+        android:textColor="#585c62"
+        android:padding="30px"
+        android:id="@+id/et2"
+        android:imeOptions="actionDone"
+        android:singleLine="true"
+        android:inputType="number"
+        android:layout_marginTop="20px"
+        android:focusable="true" />
+</LinearLayout>

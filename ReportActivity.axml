@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+           android:orientation="vertical"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:padding="20px"
+           android:background="#fff">
+
+  <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:background="#000"
+       android:orientation="horizontal"
+       android:padding="30px"
+       android:id="@+id/ll_report">
+    <TextView
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:text="Weekly Report"
+        android:textColor="#fff"
+        android:textSize="30px" />
+    <Button
+        android:layout_width="0dp"
+        android:id="@+id/b_menu"
+        android:layout_weight="1"
+        android:gravity="right"
+        android:layout_height="wrap_content"
+        android:text="Menu"
+        android:textColor="#fff"
+        android:background="#000"
+        android:textSize="30px" />
+  </LinearLayout>
+  
+  <ScrollView
+      android:layout_width="fill_parent"
+      android:layout_height="0dp"
+      android:layout_weight="10">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        >
+      <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+          <Button
+              android:layout_width="0dp"
+              android:layout_weight="1"
+              android:layout_height="wrap_content"
+              android:text="0"
+              android:id="@+id/b_start"
+              android:gravity="center"
+              android:padding="30px"
+              android:textColor="#fff"
+              android:textSize="30px"
+              android:background="#6bcebb" />
+          <TextView
+              android:layout_width="0dp"
+              android:layout_height="wrap_content"
+              android:layout_weight="1"
+              android:gravity="center"
+              android:text="TO"
+              android:textColor="#000" />
+          <Button
+              android:layout_width="0dp"
+              android:layout_weight="1"
+              android:layout_height="wrap_content"
+              android:text="0"
+              android:id="@+id/b_end"
+              android:gravity="center"
+              android:padding="30px"
+              android:textColor="#fff"
+              android:textSize="30px"
+              android:background="#6bcebb" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#f5f5f5">
+          <TextView
+              android:layout_width="0dp"
+              android:layout_weight="1"
+              android:layout_height="wrap_content"
+              android:text="Total earned"
+              android:padding="40px"
+              android:textColor="#5d5d5d" />
+          <TextView
+              android:layout_width="0dp"
+              android:layout_weight="1"
+              android:layout_height="wrap_content"
+              android:gravity="right"
+              android:text="0"
+              android:id="@+id/tv_earned"
+              android:padding="40px"
+              android:textColor="#5d5d5d" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+          <TextView
+              android:layout_width="0dp"
+              android:layout_weight="1"
+              android:layout_height="wrap_content"
+              android:text="Total spent"
+              android:padding="40px"
+              android:textColor="#5d5d5d" />
+          <TextView
+              android:layout_width="0dp"
+              android:layout_weight="1"
+              android:layout_height="wrap_content"
+              android:gravity="right"
+              android:text="0"
+              android:id="@+id/tv_spent"
+              android:padding="40px"
+              android:textColor="#5d5d5d" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#f5f5f5">
+          <TextView
+              android:layout_width="0dp"
+              android:layout_weight="1"
+              android:layout_height="wrap_content"
+              android:text="Profit"
+              android:padding="40px"
+              android:textColor="#5d5d5d" />
+          <TextView
+              android:layout_width="0dp"
+              android:layout_weight="1"
+              android:layout_height="wrap_content"
+              android:gravity="right"
+              android:text="0"
+              android:id="@+id/tv_profit"
+              android:padding="40px"
+              android:textColor="#5d5d5d" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+          <TextView
+              android:layout_width="0dp"
+              android:layout_weight="1"
+              android:layout_height="wrap_content"
+              android:text="Growth"
+              android:padding="40px"
+              android:textColor="#5d5d5d" />
+          <TextView
+              android:layout_width="0dp"
+              android:layout_weight="1"
+              android:layout_height="wrap_content"
+              android:gravity="right"
+              android:text="0"
+              android:id="@+id/tv_growth"
+              android:padding="40px"
+              android:textColor="#5d5d5d" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#f5f5f5">
+          <TextView
+              android:layout_width="0dp"
+              android:layout_weight="1"
+              android:layout_height="wrap_content"
+              android:text="Loss"
+              android:padding="40px"
+              android:textColor="#5d5d5d" />
+          <TextView
+              android:layout_width="0dp"
+              android:layout_weight="1"
+              android:layout_height="wrap_content"
+              android:gravity="right"
+              android:text="0"
+              android:id="@+id/tv_loss"
+              android:padding="40px"
+              android:textColor="#5d5d5d" />
+        </LinearLayout>
+      </LinearLayout>
+    </FrameLayout>
+  </ScrollView>
+  
+  <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SHARE"
+        android:background="@drawable/button_passive_style"
+        android:id="@+id/b_share"
+        android:layout_marginTop="20px"
+        android:padding="20px" />
+</LinearLayout>

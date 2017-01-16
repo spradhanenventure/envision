@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20px"
+    android:background="#fff">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#000"
+        android:orientation="horizontal"
+        android:padding="30px">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Sell Items"
+            android:textColor="#fff"
+            android:textSize="30px" />
+        <Button
+            android:layout_width="0dp"
+            android:id="@+id/b_menu"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:layout_height="wrap_content"
+            android:text="Menu"
+            android:textColor="#fff"
+            android:background="#000"
+            android:textSize="30px" />
+    </LinearLayout>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:id="@+id/b_date"
+        android:gravity="center"
+        android:padding="30px"
+        android:textColor="#fff"
+        android:textSize="30px"
+        android:background="#6bcebb" />
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:layout_marginTop="20px"
+        android:id="@+id/lv_products"
+        android:fastScrollEnabled="true"
+        android:persistentDrawingCache="scrolling"
+        android:scrollingCache="false"
+        android:animationCache="false"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SEE YOUR WEEKLY SALES"
+        android:background="@drawable/button_style"
+        android:id="@+id/b_weekly"
+        android:layout_marginTop="20px"
+        android:padding="20px" />
+</LinearLayout>

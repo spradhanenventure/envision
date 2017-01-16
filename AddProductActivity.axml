@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#fff"
+            android:orientation="vertical"
+            android:padding="20px">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#000"
+                android:orientation="horizontal"
+                android:padding="30px">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:text="Create your inventory"
+                    android:textColor="#fff"
+                    android:textSize="30px" />
+                <Button
+                    android:layout_width="0dp"
+                    android:id="@+id/b_menu"
+                    android:layout_weight="1"
+                    android:gravity="right"
+                    android:layout_height="wrap_content"
+                    android:text="Menu"
+                    android:textColor="#fff"
+                    android:background="#000"
+                    android:textSize="30px" />
+            </LinearLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="PRODUCT NAME"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="20px"
+                android:layout_marginTop="50px" />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/edit_style"
+                android:id="@+id/et_name"
+                android:textColor="#585c62"
+                android:padding="30px"
+                android:imeOptions="actionDone"
+                android:singleLine="true"
+                android:text=""
+                android:layout_marginTop="10px" />
+          
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TAKE A PICTURE"
+                android:id="@+id/b_picture"
+                android:background="@drawable/button_style"
+                android:layout_marginTop="20px"
+                android:padding="30px" />
+                
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ADD ANOTHER ITEM"
+                android:background="@drawable/button_style"
+                android:id="@+id/b_more"
+                android:layout_marginTop="20px"
+                android:padding="30px" />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="FINISH"
+                android:background="@drawable/button_passive_style"
+                android:layout_marginTop="20px"
+                android:id="@+id/b_finish"
+                android:padding="30px" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200px"
+                android:id="@+id/iv_picture"
+                android:layout_marginTop="30px"
+                android:scaleType="centerInside" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
