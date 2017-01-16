@@ -1,0 +1,185 @@
+C:\Users\Umar\documents\visual studio 2015\Projects\ENVision\ENVision\bin\Debug\ENVision.dll
+C:\Users\Umar\documents\visual studio 2015\Projects\ENVision\ENVision\bin\Debug\ENVision.pdb
+C:\Users\Umar\documents\visual studio 2015\Projects\ENVision\ENVision\bin\Debug\ENVision.ENVision.apk
+C:\Users\Umar\documents\visual studio 2015\Projects\ENVision\ENVision\bin\Debug\ENVision.ENVision-Signed.apk
+C:\Users\Umar\documents\visual studio 2015\Projects\ENVision\ENVision\obj\Debug\ENVision.dll
+C:\Users\Umar\documents\visual studio 2015\Projects\ENVision\ENVision\obj\Debug\ENVision.pdb
+C:\Users\Umar\documents\visual studio 2015\Projects\ENVision\ENVision\obj\Debug\android\bin\ENVision.ENVision.apk
+C:\Users\Umar\documents\visual studio 2015\Projects\ENVision\ENVision\obj\Debug\res\layout\loginactivity.xml
+C:\Users\Umar\documents\visual studio 2015\Projects\ENVision\ENVision\obj\Debug\res\layout\addproductactivity.xml
+C:\Users\Umar\documents\visual studio 2015\Projects\ENVision\ENVision\obj\Debug\res\layout\addcostactivity.xml
+C:\Users\Umar\documents\visual studio 2015\Projects\ENVision\ENVision\obj\Debug\res\layout\lvtexteditlayout.xml
+C:\Users\Umar\documents\visual studio 2015\Projects\ENVision\ENVision\obj\Debug\res\layout\addpriceactivity.xml
+C:\Users\Umar\documents\visual studio 2015\Projects\ENVision\ENVision\obj\Debug\res\layout\addstockactivity.xml
+C:\Users\Umar\documents\visual studio 2015\Projects\ENVision\ENVision\obj\Debug\res\layout\posactivity.xml
+C:\Users\Umar\documents\visual studio 2015\Projects\ENVision\ENVision\obj\Debug\res\values\strings.xml
+C:\Users\Umar\documents\visual studio 2015\Projects\ENVision\ENVision\obj\Debug\res\drawable\icon.png
+C:\Users\Umar\documents\visual studio 2015\Projects\ENVision\ENVision\obj\Debug\res\drawable\edit_style.xml
+C:\Users\Umar\documents\visual studio 2015\Projects\ENVision\ENVision\obj\Debug\res\drawable\button_style.xml
+C:\Users\Umar\documents\visual studio 2015\Projects\ENVision\ENVision\obj\Debug\res\drawable\button_passive_style.xml
+C:\Users\Umar\documents\visual studio 2015\Projects\ENVision\ENVision\obj\Debug\res\drawable\edit_passive_style.xml
+C:\Users\Umar\documents\visual studio 2015\Projects\ENVision\ENVision\obj\Debug\res\drawable\menu.xml
+C:\Users\Umar\documents\visual studio 2015\Projects\ENVision\ENVision\obj\Debug\R.cs.flag
+C:\Users\Umar\documents\visual studio 2015\Projects\ENVision\ENVision\obj\Debug\uploadflags.txt
+C:\Users\Umar\documents\visual studio 2015\Projects\ENVision\ENVision\bin\Debug\ENVision.dll.mdb
+C:\Users\Umar\documents\visual studio 2015\Projects\ENVision\ENVision\bin\Debug\Java.Interop.dll.mdb
+C:\Users\Umar\documents\visual studio 2015\Projects\ENVision\ENVision\bin\Debug\Mono.Android.dll.mdb
+C:\Users\Umar\documents\visual studio 2015\Projects\ENVision\ENVision\bin\Debug\mscorlib.dll.mdb
+C:\Users\Umar\documents\visual studio 2015\Projects\ENVision\ENVision\bin\Debug\System.ComponentModel.Composition.dll.mdb
+C:\Users\Umar\documents\visual studio 2015\Projects\ENVision\ENVision\bin\Debug\System.Core.dll.mdb
+C:\Users\Umar\documents\visual studio 2015\Projects\ENVision\ENVision\bin\Debug\System.dll.mdb
+C:\Users\Umar\documents\visual studio 2015\Projects\ENVision\ENVision\bin\Debug\System.Net.Http.dll.mdb
+C:\Users\Umar\documents\visual studio 2015\Projects\ENVision\ENVision\bin\Debug\System.Runtime.Serialization.dll.mdb
+C:\Users\Umar\documents\visual studio 2015\Projects\ENVision\ENVision\bin\Debug\System.ServiceModel.Internals.dll.mdb
+C:\Users\Umar\documents\visual studio 2015\Projects\ENVision\ENVision\bin\Debug\System.Xml.dll.mdb
+C:\Users\Umar\documents\visual studio 2015\Projects\ENVision\ENVision\bin\Debug\System.Xml.Linq.dll.mdb
+C:\Users\Umar\documents\visual studio 2015\Projects\ENVision\ENVision\obj\Debug\android\assets\ENVision.dll.mdb
+C:\Users\Umar\documents\visual studio 2015\Projects\ENVision\ENVision\obj\Debug\android\assets\Java.Interop.dll.mdb
+C:\Users\Umar\documents\visual studio 2015\Projects\ENVision\ENVision\obj\Debug\android\assets\Mono.Android.dll.mdb
+C:\Users\Umar\documents\visual studio 2015\Projects\ENVision\ENVision\obj\Debug\android\assets\mscorlib.dll.mdb
+C:\Users\Umar\documents\visual studio 2015\Projects\ENVision\ENVision\obj\Debug\android\assets\System.Core.dll.mdb
+C:\Users\Umar\documents\visual studio 2015\Projects\ENVision\ENVision\obj\Debug\android\assets\System.dll.mdb
+C:\Users\Umar\documents\visual studio 2015\Projects\ENVision\ENVision\obj\Debug\android\assets\System.Runtime.Serialization.dll.mdb
+C:\Users\Umar\documents\visual studio 2015\Projects\ENVision\ENVision\obj\Debug\android\assets\System.ServiceModel.Internals.dll.mdb
+C:\Users\Umar\documents\visual studio 2015\Projects\ENVision\ENVision\obj\Debug\android\assets\System.Xml.dll.mdb
+C:\Users\Umar\documents\visual studio 2015\Projects\ENVision\ENVision\obj\Debug\ENVision.csprojResolveAssemblyReference.cache
+C:\Users\Umar\documents\visual studio 2015\Projects\ENVision\ENVision\obj\Debug\ENVision.dll.mdb
+C:\Usb\ENVision\ENVision\bin\Debug\ENVision.dll
+C:\Usb\ENVision\ENVision\bin\Debug\ENVision.pdb
+C:\Usb\ENVision\ENVision\bin\Debug\ENVision.ENVision.apk
+C:\Usb\ENVision\ENVision\bin\Debug\ENVision.ENVision-Signed.apk
+C:\Usb\ENVision\ENVision\obj\Debug\ENVision.dll
+C:\Usb\ENVision\ENVision\obj\Debug\ENVision.pdb
+C:\Usb\ENVision\ENVision\obj\Debug\android\bin\ENVision.ENVision.apk
+C:\Usb\ENVision\ENVision\obj\Debug\res\layout\loginactivity.xml
+C:\Usb\ENVision\ENVision\obj\Debug\res\layout\addproductactivity.xml
+C:\Usb\ENVision\ENVision\obj\Debug\res\layout\addcostactivity.xml
+C:\Usb\ENVision\ENVision\obj\Debug\res\layout\lvtexteditlayout.xml
+C:\Usb\ENVision\ENVision\obj\Debug\res\layout\addpriceactivity.xml
+C:\Usb\ENVision\ENVision\obj\Debug\res\layout\addstockactivity.xml
+C:\Usb\ENVision\ENVision\obj\Debug\res\layout\posactivity.xml
+C:\Usb\ENVision\ENVision\obj\Debug\res\layout\reportactivity.xml
+C:\Usb\ENVision\ENVision\obj\Debug\res\layout\lvtexttextlayout.xml
+C:\Usb\ENVision\ENVision\obj\Debug\res\layout\lvposlayout.xml
+C:\Usb\ENVision\ENVision\obj\Debug\res\values\strings.xml
+C:\Usb\ENVision\ENVision\obj\Debug\res\drawable\icon.png
+C:\Usb\ENVision\ENVision\obj\Debug\res\drawable\edit_style.xml
+C:\Usb\ENVision\ENVision\obj\Debug\res\drawable\button_style.xml
+C:\Usb\ENVision\ENVision\obj\Debug\res\drawable\button_passive_style.xml
+C:\Usb\ENVision\ENVision\obj\Debug\res\drawable\edit_passive_style.xml
+C:\Usb\ENVision\ENVision\obj\Debug\res\drawable\menu.xml
+C:\Usb\ENVision\ENVision\obj\Debug\R.cs.flag
+C:\Usb\ENVision\ENVision\obj\Debug\uploadflags.txt
+C:\Usb\ENVision\ENVision\bin\Debug\ENVision.dll.mdb
+C:\Usb\ENVision\ENVision\bin\Debug\Java.Interop.dll.mdb
+C:\Usb\ENVision\ENVision\bin\Debug\Mono.Android.dll.mdb
+C:\Usb\ENVision\ENVision\bin\Debug\mscorlib.dll.mdb
+C:\Usb\ENVision\ENVision\bin\Debug\System.ComponentModel.Composition.dll.mdb
+C:\Usb\ENVision\ENVision\bin\Debug\System.Core.dll.mdb
+C:\Usb\ENVision\ENVision\bin\Debug\System.dll.mdb
+C:\Usb\ENVision\ENVision\bin\Debug\System.Net.Http.dll.mdb
+C:\Usb\ENVision\ENVision\bin\Debug\System.Runtime.Serialization.dll.mdb
+C:\Usb\ENVision\ENVision\bin\Debug\System.ServiceModel.Internals.dll.mdb
+C:\Usb\ENVision\ENVision\bin\Debug\System.Xml.dll.mdb
+C:\Usb\ENVision\ENVision\bin\Debug\System.Xml.Linq.dll.mdb
+C:\Usb\ENVision\ENVision\obj\Debug\android\assets\ENVision.dll.mdb
+C:\Usb\ENVision\ENVision\obj\Debug\android\assets\Java.Interop.dll.mdb
+C:\Usb\ENVision\ENVision\obj\Debug\android\assets\Mono.Android.dll.mdb
+C:\Usb\ENVision\ENVision\obj\Debug\android\assets\mscorlib.dll.mdb
+C:\Usb\ENVision\ENVision\obj\Debug\android\assets\System.Core.dll.mdb
+C:\Usb\ENVision\ENVision\obj\Debug\android\assets\System.dll.mdb
+C:\Usb\ENVision\ENVision\obj\Debug\android\assets\System.Runtime.Serialization.dll.mdb
+C:\Usb\ENVision\ENVision\obj\Debug\android\assets\System.ServiceModel.Internals.dll.mdb
+C:\Usb\ENVision\ENVision\obj\Debug\android\assets\System.Xml.dll.mdb
+C:\Usb\ENVision\ENVision\obj\Debug\ENVision.csprojResolveAssemblyReference.cache
+C:\Usb\ENVision\ENVision\obj\Debug\res\layout\lvimageeditlayout.xml
+C:\Usb\ENVision\ENVision\obj\Debug\res\layout\loadingactivity.xml
+C:\Usb\ENVision\ENVision\obj\Debug\res\layout\completeactivity.xml
+C:\Usb\ENVision\ENVision\obj\Debug\res\drawable\ic_ok.png
+C:\Usb\ENVision\ENVision\obj\Debug\res\layout\selectstockposactivity.xml
+C:\Usb\ENVision\ENVision\bin\Debug\ENVision.dll.config
+C:\Usb\ENVision\ENVision\bin\Debug\OxyPlot.dll
+C:\Usb\ENVision\ENVision\bin\Debug\OxyPlot.Xamarin.Android.dll
+C:\Usb\ENVision\ENVision\bin\Debug\OxyPlot.pdb
+C:\Usb\ENVision\ENVision\bin\Debug\OxyPlot.xml
+C:\Usb\ENVision\ENVision\bin\Debug\OxyPlot.Xamarin.Android.xml
+C:\Usb\ENVision\ENVision\obj\Debug\res\layout\weeklyreportactivity.xml
+C:\Usb\ENVision\ENVision\bin\Debug\OxyPlot.dll.mdb
+C:\Usb\ENVision\ENVision\bin\Debug\System.Net.dll.mdb
+C:\Usb\ENVision\ENVision\obj\Debug\android\assets\OxyPlot.dll.mdb
+C:\Usb\ENVision\ENVision\bin\Debug\Xamarin.Controls.BarChart.Android.dll
+C:\Usb\ENVision\ENVision\obj\Debug\res\layout\lvtextbuttonlayout.xml
+C:\Usb\ENVision\ENVision\obj\Debug\res\layout\editscreentvgeneric.xml
+C:\Usb\ENVision\ENVision\obj\Debug\ENVision.dll.mdb
+C:\Users\Umar\Desktop\Umar\Usb\ENVision\ENVision\obj\Debug\ENVision.csprojResolveAssemblyReference.cache
+C:\Users\Umar\Desktop\Umar\Usb\ENVision\ENVision\bin\Debug\ENVision.dll.config
+C:\Users\Umar\Desktop\Umar\Usb\ENVision\ENVision\bin\Debug\ENVision.dll
+C:\Users\Umar\Desktop\Umar\Usb\ENVision\ENVision\bin\Debug\ENVision.pdb
+C:\Users\Umar\Desktop\Umar\Usb\ENVision\ENVision\bin\Debug\ENVision.ENVision.apk
+C:\Users\Umar\Desktop\Umar\Usb\ENVision\ENVision\bin\Debug\ENVision.ENVision-Signed.apk
+C:\Users\Umar\Desktop\Umar\Usb\ENVision\ENVision\bin\Debug\OxyPlot.dll
+C:\Users\Umar\Desktop\Umar\Usb\ENVision\ENVision\bin\Debug\OxyPlot.Xamarin.Android.dll
+C:\Users\Umar\Desktop\Umar\Usb\ENVision\ENVision\bin\Debug\Xamarin.Controls.BarChart.Android.dll
+C:\Users\Umar\Desktop\Umar\Usb\ENVision\ENVision\bin\Debug\OxyPlot.pdb
+C:\Users\Umar\Desktop\Umar\Usb\ENVision\ENVision\bin\Debug\OxyPlot.xml
+C:\Users\Umar\Desktop\Umar\Usb\ENVision\ENVision\bin\Debug\OxyPlot.dll.mdb
+C:\Users\Umar\Desktop\Umar\Usb\ENVision\ENVision\bin\Debug\OxyPlot.Xamarin.Android.xml
+C:\Users\Umar\Desktop\Umar\Usb\ENVision\ENVision\obj\Debug\ENVision.dll
+C:\Users\Umar\Desktop\Umar\Usb\ENVision\ENVision\obj\Debug\ENVision.pdb
+C:\Users\Umar\Desktop\Umar\Usb\ENVision\ENVision\obj\Debug\android\bin\ENVision.ENVision.apk
+C:\Users\Umar\Desktop\Umar\Usb\ENVision\ENVision\obj\Debug\res\layout\loginactivity.xml
+C:\Users\Umar\Desktop\Umar\Usb\ENVision\ENVision\obj\Debug\res\layout\addproductactivity.xml
+C:\Users\Umar\Desktop\Umar\Usb\ENVision\ENVision\obj\Debug\res\layout\addcostactivity.xml
+C:\Users\Umar\Desktop\Umar\Usb\ENVision\ENVision\obj\Debug\res\layout\lvtexteditlayout.xml
+C:\Users\Umar\Desktop\Umar\Usb\ENVision\ENVision\obj\Debug\res\layout\addpriceactivity.xml
+C:\Users\Umar\Desktop\Umar\Usb\ENVision\ENVision\obj\Debug\res\layout\addstockactivity.xml
+C:\Users\Umar\Desktop\Umar\Usb\ENVision\ENVision\obj\Debug\res\layout\posactivity.xml
+C:\Users\Umar\Desktop\Umar\Usb\ENVision\ENVision\obj\Debug\res\layout\reportactivity.xml
+C:\Users\Umar\Desktop\Umar\Usb\ENVision\ENVision\obj\Debug\res\layout\lvtexttextlayout.xml
+C:\Users\Umar\Desktop\Umar\Usb\ENVision\ENVision\obj\Debug\res\layout\lvposlayout.xml
+C:\Users\Umar\Desktop\Umar\Usb\ENVision\ENVision\obj\Debug\res\layout\lvimageeditlayout.xml
+C:\Users\Umar\Desktop\Umar\Usb\ENVision\ENVision\obj\Debug\res\layout\loadingactivity.xml
+C:\Users\Umar\Desktop\Umar\Usb\ENVision\ENVision\obj\Debug\res\layout\completeactivity.xml
+C:\Users\Umar\Desktop\Umar\Usb\ENVision\ENVision\obj\Debug\res\layout\selectstockposactivity.xml
+C:\Users\Umar\Desktop\Umar\Usb\ENVision\ENVision\obj\Debug\res\layout\weeklyreportactivity.xml
+C:\Users\Umar\Desktop\Umar\Usb\ENVision\ENVision\obj\Debug\res\layout\lvtextbuttonlayout.xml
+C:\Users\Umar\Desktop\Umar\Usb\ENVision\ENVision\obj\Debug\res\layout\editscreentvgeneric.xml
+C:\Users\Umar\Desktop\Umar\Usb\ENVision\ENVision\obj\Debug\res\values\strings.xml
+C:\Users\Umar\Desktop\Umar\Usb\ENVision\ENVision\obj\Debug\res\drawable\icon.png
+C:\Users\Umar\Desktop\Umar\Usb\ENVision\ENVision\obj\Debug\res\drawable\edit_style.xml
+C:\Users\Umar\Desktop\Umar\Usb\ENVision\ENVision\obj\Debug\res\drawable\button_style.xml
+C:\Users\Umar\Desktop\Umar\Usb\ENVision\ENVision\obj\Debug\res\drawable\button_passive_style.xml
+C:\Users\Umar\Desktop\Umar\Usb\ENVision\ENVision\obj\Debug\res\drawable\edit_passive_style.xml
+C:\Users\Umar\Desktop\Umar\Usb\ENVision\ENVision\obj\Debug\res\drawable\menu.xml
+C:\Users\Umar\Desktop\Umar\Usb\ENVision\ENVision\obj\Debug\res\drawable\ic_ok.png
+C:\Users\Umar\Desktop\Umar\Usb\ENVision\ENVision\obj\Debug\R.cs.flag
+C:\Users\Umar\Desktop\Umar\Usb\ENVision\ENVision\obj\Debug\uploadflags.txt
+C:\Users\Umar\Desktop\Umar\Usb\ENVision\ENVision\bin\Debug\ENVision.dll.mdb
+C:\Users\Umar\Desktop\Umar\Usb\ENVision\ENVision\bin\Debug\Java.Interop.dll.mdb
+C:\Users\Umar\Desktop\Umar\Usb\ENVision\ENVision\bin\Debug\Mono.Android.dll.mdb
+C:\Users\Umar\Desktop\Umar\Usb\ENVision\ENVision\bin\Debug\mscorlib.dll.mdb
+C:\Users\Umar\Desktop\Umar\Usb\ENVision\ENVision\bin\Debug\System.ComponentModel.Composition.dll.mdb
+C:\Users\Umar\Desktop\Umar\Usb\ENVision\ENVision\bin\Debug\System.Core.dll.mdb
+C:\Users\Umar\Desktop\Umar\Usb\ENVision\ENVision\bin\Debug\System.dll.mdb
+C:\Users\Umar\Desktop\Umar\Usb\ENVision\ENVision\bin\Debug\System.Net.dll.mdb
+C:\Users\Umar\Desktop\Umar\Usb\ENVision\ENVision\bin\Debug\System.Net.Http.dll.mdb
+C:\Users\Umar\Desktop\Umar\Usb\ENVision\ENVision\bin\Debug\System.Runtime.Serialization.dll.mdb
+C:\Users\Umar\Desktop\Umar\Usb\ENVision\ENVision\bin\Debug\System.ServiceModel.Internals.dll.mdb
+C:\Users\Umar\Desktop\Umar\Usb\ENVision\ENVision\bin\Debug\System.Xml.dll.mdb
+C:\Users\Umar\Desktop\Umar\Usb\ENVision\ENVision\bin\Debug\System.Xml.Linq.dll.mdb
+C:\Users\Umar\Desktop\Umar\Usb\ENVision\ENVision\obj\Debug\android\assets\ENVision.dll.mdb
+C:\Users\Umar\Desktop\Umar\Usb\ENVision\ENVision\obj\Debug\android\assets\Java.Interop.dll.mdb
+C:\Users\Umar\Desktop\Umar\Usb\ENVision\ENVision\obj\Debug\android\assets\Mono.Android.dll.mdb
+C:\Users\Umar\Desktop\Umar\Usb\ENVision\ENVision\obj\Debug\android\assets\mscorlib.dll.mdb
+C:\Users\Umar\Desktop\Umar\Usb\ENVision\ENVision\obj\Debug\android\assets\OxyPlot.dll.mdb
+C:\Users\Umar\Desktop\Umar\Usb\ENVision\ENVision\obj\Debug\android\assets\System.ComponentModel.Composition.dll.mdb
+C:\Users\Umar\Desktop\Umar\Usb\ENVision\ENVision\obj\Debug\android\assets\System.Core.dll.mdb
+C:\Users\Umar\Desktop\Umar\Usb\ENVision\ENVision\obj\Debug\android\assets\System.dll.mdb
+C:\Users\Umar\Desktop\Umar\Usb\ENVision\ENVision\obj\Debug\android\assets\System.Net.dll.mdb
+C:\Users\Umar\Desktop\Umar\Usb\ENVision\ENVision\obj\Debug\android\assets\System.Net.Http.dll.mdb
+C:\Users\Umar\Desktop\Umar\Usb\ENVision\ENVision\obj\Debug\android\assets\System.Runtime.Serialization.dll.mdb
+C:\Users\Umar\Desktop\Umar\Usb\ENVision\ENVision\obj\Debug\android\assets\System.ServiceModel.Internals.dll.mdb
+C:\Users\Umar\Desktop\Umar\Usb\ENVision\ENVision\obj\Debug\android\assets\System.Xml.dll.mdb
+C:\Users\Umar\Desktop\Umar\Usb\ENVision\ENVision\obj\Debug\android\assets\System.Xml.Linq.dll.mdb
+C:\Users\Umar\Desktop\Umar\Usb\ENVision\ENVision\obj\Debug\ENVision.dll.mdb
+C:\Users\Umar\Desktop\Umar\Usb\ENVision\ENVision\bin\Debug\ENVision.dll.mdb
